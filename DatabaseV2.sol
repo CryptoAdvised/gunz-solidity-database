@@ -2,22 +2,13 @@
 pragma solidity ^0.8.0;
 
 /**
- * @title GunZSQLiteDatabase
- * @notice A large, demonstration-only contract that attempts to replicate:
- *         1) All tables from your SQLite schema
- *         2) Many of the additional functions found in the original snippet
- *         3) Basic owner-only restrictions on critical functions
- *
- *         CAUTIONS:
- *         - Plaintext passwords, large data storage, no indexing, etc. –
- *           Not suitable for production.
- *         - Many functions are placeholders for demonstration. Real logic would
- *           be more complex, especially for inventory, quest items, renting, etc.
+ * @title GunZDatabase
+ * @notice A large, demonstration-only contract that attempts to replicate.
  */
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract GunZSQLiteDatabase is Ownable {
+contract GunZDatabase is Ownable {
     // =========================================================
     //                       TABLE STRUCTS
     // =========================================================
