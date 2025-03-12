@@ -1075,11 +1075,4 @@ contract GunZDatabase is Ownable {
         charactersMap[_CID].lastTime = block.timestamp;
     }
 
-    // Add any further logic as needed from your snippet...
-    // e.g. InsertQuestGameLog, InsertQUniqueGameLog, etc. 
-    // This contract is already quite large and demonstration-focused.
-
-    // =========================================================
-    //        END OF DEMONSTRATION CONTRACT
-    // =========================================================
 }
